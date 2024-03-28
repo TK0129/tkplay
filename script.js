@@ -7,7 +7,7 @@ todoForm.addEventListener('submit', function(event) {
   const newTask = todoInput.value;
 
   if (newTask === '') {
-      alert('Please enter a task!');
+      alert('Please enter a task 1!');
       return;
   }
   todoInput.value = '';
